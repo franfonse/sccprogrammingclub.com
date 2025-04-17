@@ -1,1 +1,3 @@
-# sccprogrammingclub.com website with React frontend and Node.js backend, for AWS hosting
+# sccprogrammingclub.com
+
+## Website with React frontend and Node.js backend, for AWS hosting.
