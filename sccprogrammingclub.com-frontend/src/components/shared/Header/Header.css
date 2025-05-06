@@ -1,0 +1,59 @@
+/* Header.css */
+
+/* Base reset for header */
+header {
+    height: 110px;
+    background-color: #282a36;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+/* Container for nav links */
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 109px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+/* Branding/logo placeholder */
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Link styles */
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ababab;
+    padding: 0.5rem 0;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Hover/focus states */
+.nav-link:hover,
+.nav-link:focus {
+    color: white;
+}
+
+/* Active link underline and color */
+.nav-link.active {
+    color: #0070f3;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: #0070f3;
+    border-radius: 2px;
+}

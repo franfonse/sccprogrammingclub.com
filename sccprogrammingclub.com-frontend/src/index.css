@@ -6,17 +6,26 @@
 
 html {
   height: 100%;
+  font-size: 16px;
+  font-family: 'Fira Code', 'JetBrains Mono', Menlo, monospace;
 }
 
 body {
-
+  height: 100%;
+  background-color: #21222c;
+  color: white;
 }
 
 #root {
   display: flex;
   flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  min-height: 100dvh;
+  min-width: 100dvw;
 }
 
 .main-container {
   flex: 1;
+  margin: 40px 12%;
 }

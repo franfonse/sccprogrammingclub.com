@@ -1,7 +1,5 @@
 function Home() {
-    return (
-        <p>dsad</p>
-    )
+    return <p>ads</p>
 }
 
 export default Home;

@@ -1,6 +1,10 @@
+import './Footer.css';
+
 function Footer() {
     return (
-        <p>dsad</p>
+        <footer>
+            <p>dsad</p>
+        </footer>
     )
 }
 
