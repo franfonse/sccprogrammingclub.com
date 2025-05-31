@@ -1,0 +1,14 @@
+.members-active-page {
+  width: 100%;
+}
+
+.members-active-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  width: 100%;
+  margin-top: 30px;
+}

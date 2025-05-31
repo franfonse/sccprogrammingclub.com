@@ -1,45 +1,89 @@
-import { NavLink } from 'react-router-dom'
-import './Header.css';
+import "./Header.css";
+import { NavLink, useLocation } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
-    return (
-        <header>
-            <nav>
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMouseEnter = () => setMenuOpen(true);
+  const handleMouseLeave = () => setMenuOpen(false);
+  const handleClick = () => setMenuOpen(false);
+
+  const { pathname } = useLocation();
+
+  const isMemberSection = pathname.startsWith("/member");
+
+  return (
+    <header>
+      <nav>
+        <NavLink to="/" end className="logo">
+          SCC <br /> Programming Club
+        </NavLink>
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) =>
+            `nav-link home ${isActive ? "active" : ""}`
+          }
+        >
+          Home
+        </NavLink>
+
+        <div
+          className="nav-link dropdown"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <NavLink
+            to="/members-active"
+            className={`nav-link members ${isMemberSection ? "active" : ""}`}
+            onClick={handleClick}
+          >
+            Members
+          </NavLink>
+          {menuOpen && (
+            <ul className="dropdown-menu">
+              <li>
                 <NavLink
-                    to="/"
-                    end
-                    className='logo'
+                  to="/members-active"
+                  className="submenu-link members-active"
+                  onClick={handleClick}
                 >
-                    <img src="/src/assets/react.svg" alt="SCC Programming Club" />
+                  Current members
                 </NavLink>
+              </li>
+              <li>
                 <NavLink
-                    to="/"
-                    end
-                    className={({ isActive }) => `nav-link home ${isActive ? 'active' : ''}`}
+                  to="/members-inactive"
+                  className="submenu-link members-inactive"
+                  onClick={handleClick}
                 >
-                    Home
+                  Past members
                 </NavLink>
-                <NavLink
-                    to="/members-active"
-                    className={({ isActive }) => `nav-link members ${isActive ? 'active' : ''}`}
-                >
-                    Members
-                </NavLink>
-                <NavLink
-                    to="/projects"
-                    className={({ isActive }) => `nav-link projects ${isActive ? 'active' : ''}`}
-                >
-                    Projects
-                </NavLink>
-                <NavLink
-                    to="/contact"
-                    className={({ isActive }) => `nav-link contact ${isActive ? 'active' : ''}`}
-                >
-                    Contact
-                </NavLink>
-            </nav>
-        </header>
-    )
+              </li>
+            </ul>
+          )}
+        </div>
+
+        <NavLink
+          to="/projects"
+          className={({ isActive }) =>
+            `nav-link projects ${isActive ? "active" : ""}`
+          }
+        >
+          Projects
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            `nav-link contact ${isActive ? "active" : ""}`
+          }
+        >
+          Contact
+        </NavLink>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;

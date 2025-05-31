@@ -1,0 +1,8 @@
+.projects-page h2 {
+    margin-bottom: 20px;
+}
+
+.projects-page li a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
