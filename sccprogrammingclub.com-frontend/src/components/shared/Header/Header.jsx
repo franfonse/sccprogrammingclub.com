@@ -1,9 +1,11 @@
 import "./Header.css";
 import { NavLink, useLocation } from "react-router-dom";
 import { useState } from "react";
+import useAuth from "../../../contexts/auth/auth";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { isLoggedIn } = useAuth();
 
   const handleMouseEnter = () => setMenuOpen(true);
   const handleMouseLeave = () => setMenuOpen(false);
@@ -12,6 +14,14 @@ function Header() {
   const { pathname } = useLocation();
 
   const isMemberSection = pathname.startsWith("/member");
+
+  function handleLogin() {
+    console.log("Login button clicked");
+  }
+
+  function handleLogout() {
+    console.log("Logout button clicked");
+  }
 
   return (
     <header>
@@ -81,6 +91,25 @@ function Header() {
         >
           Contact
         </NavLink>
+
+        <div className="sign-container">
+          {!isLoggedIn ? (
+            <button
+              className="login-button"
+              onClick={handleLogin}
+            >
+              Login
+            </button>
+          ) : (
+            <button
+              className="logout-button"
+              onClick={handleLogout}
+            >
+              Logout
+            </button>
+          )}
+        </div>
+
       </nav>
     </header>
   );
