@@ -1,45 +1,45 @@
 .home-page h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #ffffff;
-  text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	color: #ffffff;
+	text-align: center;
 }
 
 .home-page img {
-  display: block;
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  margin: 0 auto 2rem;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+	display: block;
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	margin: 0 auto 2rem;
+	border-radius: 6px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .home-page h4 {
-  font-size: 1.5rem;
-  margin: 2rem 0 1rem;
-  color: #ffffff;
-  text-align: center;
+	font-size: 1.5rem;
+	margin: 2rem 0 1rem;
+	color: #ffffff;
+	text-align: center;
 }
 
 .home-page p {
-  font-size: 1rem;
-  line-height: 1.6;
-  max-width: 750px;
-  margin: 0 auto;
-  text-align: left;
-  color: #c0c0c0;
+	font-size: 1rem;
+	line-height: 1.6;
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: left;
+	color: #c0c0c0;
 }
 
 /* Responsive tweaks */
 @media (max-width: 600px) {
-  .home-page {
-    padding: 1.5rem 1rem;
-  }
-  .home-page h2 {
-    font-size: 2rem;
-  }
-  .home-page h4 {
-    font-size: 1.25rem;
-  }
+	.home-page {
+		padding: 1.5rem 1rem;
+	}
+	.home-page h2 {
+		font-size: 2rem;
+	}
+	.home-page h4 {
+		font-size: 1.25rem;
+	}
 }
