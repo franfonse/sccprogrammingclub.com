@@ -4,7 +4,7 @@
     "name": "Francisco Fonseca",
     "role": "President",
     "isActive": "false",
-    "img": "src/assets/images/FranciscoFonseca.jpeg",
+    "img": "FranciscoFonseca.jpeg",
     "bio": "We've got work to do."
   },
   {
@@ -12,7 +12,7 @@
     "name": "Daniel Johnson",
     "role": "Vice President",
     "isActive": "false",
-    "img": "src/assets/images/DanielJohnson.jpeg",
+    "img": "DanielJohnson.jpeg",
     "bio": "This member hasn't entered an introduction yet."
   },
   {
@@ -20,7 +20,7 @@
     "name": "Stephen Cushing",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/StephenCushing.jpg",
+    "img": "StephenCushing.jpg",
     "bio": "Sometimes I'm sad, so I decide to stop being sad and be awesome instead."
   },
   {
@@ -28,7 +28,7 @@
     "name": "Ted Miller",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/TedMiller.jpeg",
+    "img": "TedMiller.jpeg",
     "bio": "This member hasn't entered an introduction yet."
   },
   {
@@ -36,7 +36,7 @@
     "name": "Nhi Nguyen",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/NhiNguyen.jpg",
+    "img": "NhiNguyen.jpg",
     "bio": "This member hasn't entered an introduction yet."
   },
   {
@@ -44,7 +44,7 @@
     "name": "Miho Suzuki",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/MihoSuzuki.jpg",
+    "img": "MihoSuzuki.jpg",
     "bio": "This member hasn't entered an introduction yet."
   },
   {
@@ -52,7 +52,7 @@
     "name": "Evelyn Huang",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/EvelynHuang.jpg",
+    "img": "EvelynHuang.jpg",
     "bio": "Full‑stack enthusiast and our go‑to UI/UX guru."
   },
   {
@@ -60,7 +60,7 @@
     "name": "Emily Brinks",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/EmilyBrinks.jpg",
+    "img": "EmilyBrinks.jpg",
     "bio": "This member hasn't entered an introduction yet."
   },
   {
@@ -68,7 +68,7 @@
     "name": "Risa Ohtake",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/Default.jpg",
+    "img": "Default.jpg",
     "bio": "This member hasn't entered an introduction yet."
   },
   {
@@ -76,7 +76,7 @@
     "name": "Sara Lee",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/SooLee.jpg",
+    "img": "SooLee.jpg",
     "bio": "This member hasn't entered an introduction yet."
   },
   {
@@ -84,7 +84,7 @@
     "name": "Noa Shiga",
     "role": "Member",
     "isActive": "false",
-    "img": "src/assets/images/Default.jpg",
+    "img": "Default.jpg",
     "bio": "This member hasn't entered an introduction yet."
   }
 ]

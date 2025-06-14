@@ -1,6 +1,6 @@
 import "./Home.css";
 
-function Home() {
+export const Home: React.FC = () => {
   return (
     <>
       <div className="home-page">
@@ -22,5 +22,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;

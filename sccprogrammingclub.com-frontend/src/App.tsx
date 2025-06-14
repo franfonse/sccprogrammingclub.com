@@ -1,9 +1,9 @@
 import "./App.css";
-import Footer from "./components/shared/Footer/Footer";
-import Header from "./components/shared/Header/Header";
-import MemberProvider from "./contexts/member/MemberProvider";
-import AuthProvider from "./contexts/auth/AuthProvider";
-import AppRoutes from "./routes/AppRoutes";
+import { Footer } from "@/components/shared/Footer/Footer";
+import { Header } from "@/components/shared/Header/Header";
+import { MemberProvider } from "@/lib/context/Members";
+import { AuthProvider } from "@/lib/context/Auth";
+import { AppRoutes } from "@/routes/AppRoutes";
 
 function App() {
   return (
