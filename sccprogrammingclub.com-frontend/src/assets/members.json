@@ -1,0 +1,90 @@
+[
+	{
+		"id": 1,
+		"name": "Francisco Fonseca",
+		"role": "President",
+		"isActive": "false",
+		"img": "FranciscoFonseca.jpeg",
+		"bio": "We've got work to do."
+	},
+	{
+		"id": 2,
+		"name": "Daniel Johnson",
+		"role": "Vice President",
+		"isActive": "false",
+		"img": "DanielJohnson.jpeg",
+		"bio": "This member hasn't entered an introduction yet."
+	},
+	{
+		"id": 3,
+		"name": "Stephen Cushing",
+		"role": "Member",
+		"isActive": "false",
+		"img": "StephenCushing.jpg",
+		"bio": "Sometimes I'm sad, so I decide to stop being sad and be awesome instead."
+	},
+	{
+		"id": 4,
+		"name": "Ted Miller",
+		"role": "Member",
+		"isActive": "false",
+		"img": "TedMiller.jpeg",
+		"bio": "This member hasn't entered an introduction yet."
+	},
+	{
+		"id": 5,
+		"name": "Nhi Nguyen",
+		"role": "Member",
+		"isActive": "false",
+		"img": "NhiNguyen.jpg",
+		"bio": "This member hasn't entered an introduction yet."
+	},
+	{
+		"id": 6,
+		"name": "Miho Suzuki",
+		"role": "Member",
+		"isActive": "false",
+		"img": "MihoSuzuki.jpg",
+		"bio": "This member hasn't entered an introduction yet."
+	},
+	{
+		"id": 7,
+		"name": "Evelyn Huang",
+		"role": "Member",
+		"isActive": "false",
+		"img": "EvelynHuang.jpg",
+		"bio": "Full‑stack enthusiast and our go‑to UI/UX guru."
+	},
+	{
+		"id": 8,
+		"name": "Emily Brinks",
+		"role": "Member",
+		"isActive": "false",
+		"img": "EmilyBrinks.jpg",
+		"bio": "This member hasn't entered an introduction yet."
+	},
+	{
+		"id": 9,
+		"name": "Risa Ohtake",
+		"role": "Member",
+		"isActive": "false",
+		"img": "Default.jpg",
+		"bio": "This member hasn't entered an introduction yet."
+	},
+	{
+		"id": 10,
+		"name": "Sara Lee",
+		"role": "Member",
+		"isActive": "false",
+		"img": "SooLee.jpg",
+		"bio": "This member hasn't entered an introduction yet."
+	},
+	{
+		"id": 11,
+		"name": "Noa Shiga",
+		"role": "Member",
+		"isActive": "false",
+		"img": "Default.jpg",
+		"bio": "This member hasn't entered an introduction yet."
+	}
+]
