@@ -1,30 +1,19 @@
 footer {
-	height: 100px;
+	padding: 2rem;
 	background-color: #151517;
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer-text {
 	font-size: 0.8rem;
 	color: #828282;
-	position: absolute;
-	bottom: 2px;
-	left: 50%;
-	transform: translateX(-50%);
 }
 
-.footer-icons {
-	position: absolute;
-	bottom: 2px;
-	right: 5px;
+.footer-links {
 	display: flex;
-	flex-direction: row;
 	gap: 5px;
-}
-
-.icon-link img {
-	width: 22px;
-	height: 22px;
-	filter: invert(52%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(92%)
-		contrast(91%);
 }

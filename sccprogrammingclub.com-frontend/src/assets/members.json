@@ -4,7 +4,7 @@
 		"name": "Francisco Fonseca",
 		"role": "President",
 		"isActive": "false",
-		"img": "FranciscoFonseca.jpeg",
+		"img": "FranciscoFonseca.webp",
 		"bio": "We've got work to do."
 	},
 	{
@@ -12,7 +12,7 @@
 		"name": "Daniel Johnson",
 		"role": "Vice President",
 		"isActive": "false",
-		"img": "DanielJohnson.jpeg",
+		"img": "DanielJohnson.webp",
 		"bio": "This member hasn't entered an introduction yet."
 	},
 	{
@@ -20,7 +20,7 @@
 		"name": "Stephen Cushing",
 		"role": "Member",
 		"isActive": "false",
-		"img": "StephenCushing.jpg",
+		"img": "StephenCushing.webp",
 		"bio": "Sometimes I'm sad, so I decide to stop being sad and be awesome instead."
 	},
 	{
@@ -28,7 +28,7 @@
 		"name": "Ted Miller",
 		"role": "Member",
 		"isActive": "false",
-		"img": "TedMiller.jpeg",
+		"img": "TedMiller.webp",
 		"bio": "This member hasn't entered an introduction yet."
 	},
 	{
@@ -36,7 +36,7 @@
 		"name": "Nhi Nguyen",
 		"role": "Member",
 		"isActive": "false",
-		"img": "NhiNguyen.jpg",
+		"img": "NhiNguyen.webp",
 		"bio": "This member hasn't entered an introduction yet."
 	},
 	{
@@ -44,7 +44,7 @@
 		"name": "Miho Suzuki",
 		"role": "Member",
 		"isActive": "false",
-		"img": "MihoSuzuki.jpg",
+		"img": "MihoSuzuki.webp",
 		"bio": "This member hasn't entered an introduction yet."
 	},
 	{
@@ -52,15 +52,15 @@
 		"name": "Evelyn Huang",
 		"role": "Member",
 		"isActive": "false",
-		"img": "EvelynHuang.jpg",
-		"bio": "Full‑stack enthusiast and our go‑to UI/UX guru."
+		"img": "EvelynHuang.webp",
+		"bio": "Full-stack enthusiast and our go-to UI/UX guru."
 	},
 	{
 		"id": 8,
 		"name": "Emily Brinks",
 		"role": "Member",
 		"isActive": "false",
-		"img": "EmilyBrinks.jpg",
+		"img": "EmilyBrinks.webp",
 		"bio": "This member hasn't entered an introduction yet."
 	},
 	{
@@ -68,7 +68,7 @@
 		"name": "Risa Ohtake",
 		"role": "Member",
 		"isActive": "false",
-		"img": "Default.jpg",
+		"img": null,
 		"bio": "This member hasn't entered an introduction yet."
 	},
 	{
@@ -76,7 +76,7 @@
 		"name": "Sara Lee",
 		"role": "Member",
 		"isActive": "false",
-		"img": "SooLee.jpg",
+		"img": "SooLee.webp",
 		"bio": "This member hasn't entered an introduction yet."
 	},
 	{
@@ -84,7 +84,7 @@
 		"name": "Noa Shiga",
 		"role": "Member",
 		"isActive": "false",
-		"img": "Default.jpg",
+		"img": null,
 		"bio": "This member hasn't entered an introduction yet."
 	}
 ]

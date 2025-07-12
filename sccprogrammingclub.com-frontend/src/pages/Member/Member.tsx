@@ -1,7 +1,10 @@
-import "./Member.css";
+import { IncognitoIcon } from "@/components/icons/incognito";
+
 import { Loader } from "@/components/Loader/Loader";
 import { useMembers } from "@/lib/context/Members";
 import { useParams } from "react-router-dom";
+
+import "./Member.css";
 
 export const Member: React.FC = () => {
 	const { id } = useParams();
@@ -16,7 +19,13 @@ export const Member: React.FC = () => {
 	return (
 		member && (
 			<div className="member-page">
-				<img src={`images/${member.img}`} alt={member.name} />
+				<div className="member-image">
+					{member.img ? (
+						<img src={`/images/members/${member.img}`} alt={member.name} />
+					) : (
+						<IncognitoIcon />
+					)}
+				</div>
 				<h2>{member.name}</h2>
 				<span>{member.role}</span>
 				<p>{member.bio}</p>

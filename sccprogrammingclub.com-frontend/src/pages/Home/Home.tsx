@@ -8,7 +8,7 @@ export const Home: React.FC = () => {
 					Seattle Central College <br /> Programming Club
 				</h2>
 				<img
-					src="/src/assets/images/sccpc_first-meeting.jpeg"
+					src="/images/sccpc_first-meeting.webp"
 					alt="Seattle Central College Programming Club"
 				/>
 				<h4>About us</h4>
