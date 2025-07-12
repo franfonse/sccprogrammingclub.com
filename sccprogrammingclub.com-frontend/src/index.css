@@ -19,13 +19,11 @@ body {
 #root {
 	display: flex;
 	flex-direction: column;
-	min-width: 100vw;
 	min-height: 100vh;
 	min-height: 100dvh;
-	min-width: 100dvw;
 }
 
 .main-container {
 	flex: 1;
-	margin: 40px 12%;
+	margin: 2rem;
 }
