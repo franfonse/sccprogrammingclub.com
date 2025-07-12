@@ -1,23 +1,24 @@
 header {
-	height: 110px;
+	padding: 2rem;
 	background-color: #282a36;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 nav {
-	max-width: 1200px;
-	margin: 0 auto;
+	max-width: 800px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
 	display: flex;
-	height: 109px;
-	justify-content: flex-start;
-	align-items: flex-end;
+	margin: 0 auto;
 	gap: 2rem;
 }
 
 nav > a:first-child {
-	text-align: center;
-	margin: 0 0 10px 10%;
 	text-decoration: none;
 	color: #e0e0e0;
 }
@@ -50,7 +51,7 @@ nav > a:first-child {
 	content: "";
 	position: absolute;
 	left: 0;
-	bottom: -4px;
+	bottom: -2px;
 	width: 100%;
 	height: 2px;
 	background-color: #0070f3;
@@ -98,9 +99,6 @@ nav > a:first-child {
 }
 
 .sign-container {
-	position: absolute;
-	right: 2%;
-	top: 4px;
 	display: flex;
 	gap: 10px;
 }
