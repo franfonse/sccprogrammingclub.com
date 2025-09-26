@@ -29,6 +29,28 @@ export const Header: React.FC = () => {
 				<NavLink to="/" end className="logo">
 					SCC <br /> Programming Club
 				</NavLink>
+
+				<div className="sign-container">
+					{!isLoggedIn ? (
+						<button
+							type="button"
+							className="login-button"
+							onClick={handleLogin}
+						>
+							Login
+						</button>
+					) : (
+						<button
+							type="button"
+							className="logout-button"
+							onClick={handleLogout}
+						>
+							Logout
+						</button>
+					)}
+				</div>
+			</nav>
+			<nav>
 				<NavLink
 					to="/"
 					end
@@ -91,26 +113,6 @@ export const Header: React.FC = () => {
 				>
 					Contact
 				</NavLink>
-
-				<div className="sign-container">
-					{!isLoggedIn ? (
-						<button
-							type="button"
-							className="login-button"
-							onClick={handleLogin}
-						>
-							Login
-						</button>
-					) : (
-						<button
-							type="button"
-							className="logout-button"
-							onClick={handleLogout}
-						>
-							Logout
-						</button>
-					)}
-				</div>
 			</nav>
 		</header>
 	);
